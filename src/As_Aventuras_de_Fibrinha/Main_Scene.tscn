@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/weather.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Musicas/WhatsApp Image 2023-02-23 at 09.25.28.jpeg" type="Texture" id=2]
+[ext_resource path="res://Musicas/gentle-rainfall-16960.wav" type="AudioStream" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 1139, 601 )
+scale = Vector2( 1.89297, 1.89297 )
+texture = ExtResource( 2 )
+
+[node name="Weather" parent="." instance=ExtResource( 1 )]
+wind = 0.3
+size = 0.6
+rain_darkness = 0.15
+
+[node name="Butao_Opcoes" type="Button" parent="."]
+visible = false
+margin_left = 374.0
+margin_top = 609.0
+margin_right = 1093.0
+margin_bottom = 762.0
+
+[node name="Butao_Start" type="Button" parent="."]
+visible = false
+light_mask = 0
+margin_left = 375.0
+margin_top = 418.0
+margin_right = 1092.0
+margin_bottom = 566.0
+
+[node name="Audio_chuva" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
