@@ -7,8 +7,8 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Background" type="Sprite" parent="."]
-position = Vector2( 1139, 601 )
-scale = Vector2( 1.89297, 1.89297 )
+position = Vector2( 478.75, 300.125 )
+scale = Vector2( 0.861329, 0.952735 )
 texture = ExtResource( 2 )
 
 [node name="Weather" parent="." instance=ExtResource( 1 )]
@@ -18,18 +18,18 @@ rain_darkness = 0.15
 
 [node name="Butao_Opcoes" type="Button" parent="."]
 visible = false
-margin_left = 374.0
-margin_top = 609.0
-margin_right = 1093.0
-margin_bottom = 762.0
+margin_left = 131.0
+margin_top = 208.0
+margin_right = 457.0
+margin_bottom = 283.0
 
 [node name="Butao_Start" type="Button" parent="."]
 visible = false
 light_mask = 0
-margin_left = 375.0
-margin_top = 418.0
-margin_right = 1092.0
-margin_bottom = 566.0
+margin_left = 131.0
+margin_top = 306.0
+margin_right = 459.0
+margin_bottom = 380.0
 
 [node name="Audio_chuva" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 3 )

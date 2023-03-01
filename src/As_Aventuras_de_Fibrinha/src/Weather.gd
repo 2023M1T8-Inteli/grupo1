@@ -1,12 +1,11 @@
 extends Node2D
 
 #exporta as variáveis
-export (String, 'clear', 'rain', 'snow') var weatherType = 'sun'
+export (String, 'clear', 'rain') var weatherType = 'sun'
 export (float, -1, 1) var wind = 0
 export (float, 0, 1) var size = 0.3
 export (int, 100, 3000) var amount = 1500
 export (float, 0, 1) var light = 1
-export (float, 0, 1) var snow_darkness = 0.2
 export (float, 0, 1) var rain_darkness = 0.3
 export (float, 1, 10) var lightChangeTime = 2
 export (bool) var delayWeatherChange = true
@@ -17,13 +16,9 @@ var nightColor: Color = Color.white
 #define quem que o tempo vai seguir
 export var followNode: NodePath 
 
-onready var snow = $Snow
 onready var rain = $Rain
 onready var darkness = $Darkness
 onready var tween = $Tween
-
-#define que o tempo vai seguir quem você quer
-onready var follow: Node2D = get_node_or_null(followNode)
 
 #faz com que ignore as ultimas mudanças no tempo
 var last_control: Control
@@ -34,35 +29,16 @@ func _ready() -> void:
 	change_weather()
 	darkness_position()
 	position = get_viewport_transform().get_origin() + Vector2(get_viewport_rect().size.x / 2, 0)
-	snow.process_material.emission_box_extents.x = get_viewport_rect().size.x * 2 
 	rain.process_material.emission_box_extents.x = get_viewport_rect().size.x * 2 
-	
-#faz com que siga o que você definiu para seguir, o tempo e a escuridão
-func _physics_process(_delta: float) -> void:
-	if follow:
-		position = follow.position + Vector2(0, -get_viewport_rect().size.y)
-		darkness_position() 
-	
-#define os tempos, se está chovendo, nevando ou se está limpo.
+
+#define os tempos, se está chovendo ou se está limpo.
 func change_weather():
 	
 	#espera a mudança de tempo para escurecer a tela
 	if weatherType == 'clear':
 		apply_rain_settings()
-		apply_snow_settings()
 		if delayWeatherChange: yield(tween, "tween_completed") 
 		change_light(nightColor.darkened(light))
-	
-	if weatherType == 'snow':
-		
-		#escurece o dia  e da delay na luz para começar a nevar
-		change_light(nightColor.darkened(light - snow_darkness * size))
-		if delayWeatherChange: yield(tween, "tween_completed") 
-		change_amount(snow, amount)
-		apply_snow_settings()
-		snow.emitting = true
-		
-	else: snow.emitting = false
 
 	if weatherType == 'rain':
 		
@@ -87,16 +63,6 @@ func change_light(new_color: Color):
 	darkness.color, new_color, lightChangeTime,
 	Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)
 	tween.start()
-	
-func apply_snow_settings():
-	
-	# tamanho da neve
-	change_size(snow, size)
-	
-	# setting da neve com vendo, definindo sua velocidade e direção
-	change_wind_speed(snow, 0.5 + abs(wind) / 2)
-	change_wind_direction(snow, wind) 
-	snow.process_material.gravity.x = 70 * wind
 
 func apply_rain_settings():
 	
@@ -140,7 +106,7 @@ func change_wind_speed(weather, new_speed):
 	Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)
 	tween.start()
 
-#define o tamanho e aonde a escuridão estará na tela
+#define o tamanho e onde a escuridão estará na tela
 func darkness_position():
 	
 	darkness.rect_size = get_viewport_rect().size * 4

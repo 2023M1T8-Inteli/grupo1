@@ -16,10 +16,7 @@ config/icon="res://icon.png"
 
 [display]
 
-window/size/width=2048
-window/size/height=1200
 window/dpi/allow_hidpi=true
-window/stretch/shrink=2.0
 
 [gui]
 
