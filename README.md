@@ -8,11 +8,11 @@
 
 ## V.tech
 
-## Integrantes: Bruno, Daniel, Jacob, Luiza, Mario, Matheus e Victor
+## Integrantes: Bruno, Daniel, Luiza, Mario, Matheus e Victor
 
 ## Descrição
 
-📜 Este é o resultado da segunda sprint de desenvolvimento de game para a V.tal.
+📜 Este é o resultado da terceira sprint de desenvolvimento de game para a V.tal.
 <br><br>
 As Aventuras de Fibrinha visa a propagação da cultura organizacional, por meio da gamificação no processo de formação dos funcionários da V.tal, alinhando-os ao código de ética e conduta da empresa.
 <br><br>
@@ -90,6 +90,8 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 * 0.1.0 - 24/02/2023
     MUDANÇA: atualização de docs (inclusão do GDD), readme e scr (inclusão do código)
+* 0.2.0 - 10/03/2023
+    MUDANÇA: atualização de docs (inclusão do GDD atualizado), readme e scr (inclusão do código, nova versão do jogo)
 
 ## 📋 Licença/License
 
