@@ -1,0 +1,371 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://src/weather.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Musicas/WhatsApp Image 2023-02-23 at 09.25.28.jpeg" type="Texture" id=2]
+[ext_resource path="res://Musicas/gentle-rainfall-16960.wav" type="AudioStream" id=3]
+[ext_resource path="res://script_botoes.gd" type="Script" id=4]
+[ext_resource path="res://assets/pixil-frame-0.png" type="Texture" id=5]
+[ext_resource path="res://assets/seta_esquerda.png" type="Texture" id=6]
+[ext_resource path="res://assets/seta_direita.png" type="Texture" id=7]
+[ext_resource path="res://assets/pixil-frame-4.png" type="Texture" id=8]
+[ext_resource path="res://assets/pixil-frame-2.png" type="Texture" id=9]
+[ext_resource path="res://assets/pixil-frame-3.png" type="Texture" id=10]
+[ext_resource path="res://assets/pixil-frame-7.png" type="Texture" id=11]
+[ext_resource path="res://assets/pixil-frame-5.png" type="Texture" id=12]
+[ext_resource path="res://assets/pixil-frame-6.png" type="Texture" id=13]
+[ext_resource path="res://assets/pixil-frame-1.png" type="Texture" id=14]
+[ext_resource path="res://assets/iniciar.png" type="Texture" id=15]
+[ext_resource path="res://assets/opções.png" type="Texture" id=16]
+[ext_resource path="res://assets/iniciar_escuro.png" type="Texture" id=17]
+[ext_resource path="res://assets/opções_escuro.png" type="Texture" id=18]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 512.5, 300.5 )
+scale = Vector2( 0.799219, 0.926563 )
+texture = ExtResource( 2 )
+
+[node name="Weather" parent="." instance=ExtResource( 1 )]
+wind = 0.3
+size = 0.6
+rain_darkness = 0.07
+
+[node name="Audio_chuva" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
+
+[node name="cutscene1" type="Sprite" parent="."]
+visible = false
+position = Vector2( 513.112, 510 )
+scale = Vector2( 1.00173, 1 )
+texture = ExtResource( 5 )
+
+[node name="choquinho1" type="Label" parent="cutscene1"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -352.0
+margin_top = -454.0
+margin_right = -157.0
+margin_bottom = -349.0
+text = "Ontem foi incrível! O camarote que recebi foi o melhor que já fui na minha vida!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cobrinho1" type="Label" parent="cutscene1"]
+modulate = Color( 0.0117647, 0, 0, 1 )
+self_modulate = Color( 0.0196078, 0, 0, 1 )
+margin_left = -123.898
+margin_top = -456.0
+margin_right = 68.1023
+margin_bottom = -336.0
+text = " Animal! Os presentes que a gente recebe são sempre os melhores!
+"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cutscene2" type="Sprite" parent="."]
+visible = false
+position = Vector2( 516, 511.05 )
+scale = Vector2( 1.00205, 1.00205 )
+texture = ExtResource( 14 )
+
+[node name="choquinho1" type="Label" parent="cutscene2"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -352.0
+margin_top = -454.0
+margin_right = -157.0
+margin_bottom = -349.0
+text = "Ontem foi incrível! O camarote que recebi foi o melhor que já fui na minha vida!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cobrinho1" type="Label" parent="cutscene2"]
+modulate = Color( 0.0117647, 0, 0, 1 )
+self_modulate = Color( 0.0196078, 0, 0, 1 )
+margin_left = -123.746
+margin_top = -456.115
+margin_right = 68.2537
+margin_bottom = -336.115
+text = " Animal! Os presentes que a gente recebe são sempre os melhores!
+"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="fribrinha1" type="Label" parent="cutscene2"]
+modulate = Color( 0.0352941, 0, 0, 1 )
+self_modulate = Color( 0.0156863, 0, 0, 1 )
+margin_left = 351.875
+margin_top = -357.317
+margin_right = 434.875
+margin_bottom = -227.317
+text = " Mas a gente não pode aceitar os presentes que nos mandam…."
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cutscene3" type="Sprite" parent="."]
+visible = false
+position = Vector2( 516.4, 299.5 )
+scale = Vector2( 0.999219, 1.00833 )
+texture = ExtResource( 9 )
+
+[node name="choquinho1" type="Label" parent="cutscene3"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -347.671
+margin_top = -242.479
+margin_right = -152.671
+margin_bottom = -137.479
+text = "Ontem foi incrível! O camarote que recebi foi o melhor que já fui na minha vida!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cobrinho1" type="Label" parent="cutscene3"]
+modulate = Color( 0.0117647, 0, 0, 1 )
+self_modulate = Color( 0.0196078, 0, 0, 1 )
+margin_left = -121.495
+margin_top = -241.488
+margin_right = 70.5052
+margin_bottom = -121.488
+text = " Animal! Os presentes que a gente recebe são sempre os melhores!
+"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="fribrinha1" type="Label" parent="cutscene3"]
+modulate = Color( 0.0352941, 0, 0, 1 )
+self_modulate = Color( 0.0156863, 0, 0, 1 )
+margin_left = 351.875
+margin_top = -146.281
+margin_right = 434.875
+margin_bottom = -16.281
+text = " Mas a gente não pode aceitar os presentes que nos mandam…."
+align = 1
+valign = 1
+autowrap = true
+
+[node name="fibrinha2" type="Label" parent="cutscene3"]
+modulate = Color( 0.0117647, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -95.0
+margin_top = 64.0
+margin_right = 174.0
+margin_bottom = 159.0
+text = " Se o presente passar de 100 dólares, temos que agradecer e devolver o presente!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cutscene4" type="Sprite" parent="."]
+visible = false
+position = Vector2( 515.9, 303.516 )
+scale = Vector2( 1.00215, 1.01161 )
+texture = ExtResource( 10 )
+
+[node name="fibrinha3" type="Label" parent="cutscene4"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -278.302
+margin_top = -203.156
+margin_right = -197.302
+margin_bottom = -166.156
+text = "Belê?"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cobrinho2" type="Label" parent="cutscene4"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -124.632
+margin_top = -261.48
+margin_right = -20.6321
+margin_bottom = -111.48
+text = "Você não sabe de nada. Não importa se a V.Tal não permite!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cutscene5" type="Sprite" parent="."]
+visible = false
+position = Vector2( 515.9, 515.3 )
+scale = Vector2( 1.0041, 1.00723 )
+texture = ExtResource( 8 )
+
+[node name="fibrinha3" type="Label" parent="cutscene5"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -277.761
+margin_top = -415.299
+margin_right = -196.761
+margin_bottom = -378.299
+text = "Belê?"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cobrinho2" type="Label" parent="cutscene5"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -128.374
+margin_top = -471.888
+margin_right = -24.3741
+margin_bottom = -321.888
+text = "Você não sabe de nada. Não importa se a V.Tal não permite!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cobrinho3" type="Label" parent="cutscene5"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -220.994
+margin_top = -172.056
+margin_right = -75.9943
+margin_bottom = -90.0558
+text = " E quer saber de uma coisa? Já estou cheio de você! Suma daqui agora!!!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cutscene6" type="Sprite" parent="."]
+visible = false
+position = Vector2( 519.4, 300.016 )
+scale = Vector2( 1.00117, 1.00995 )
+texture = ExtResource( 12 )
+
+[node name="fibrinha3" type="Label" parent="cutscene6"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -275.078
+margin_top = -201.016
+margin_right = -194.078
+margin_bottom = -164.016
+text = "Belê?"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cobrinho2" type="Label" parent="cutscene6"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -128.25
+margin_top = -267.356
+margin_right = -17.25
+margin_bottom = -117.356
+text = "Você não sabe de nada. Não importa se a V.Tal não permite!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="cobrinho3" type="Label" parent="cutscene6"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -220.142
+margin_top = 42.5605
+margin_right = -75.1425
+margin_bottom = 124.561
+text = " E quer saber de uma coisa? Já estou cheio de você! Suma daqui agora!!!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="fibrinha4" type="Label" parent="cutscene6"]
+margin_left = 297.252
+margin_top = -104.972
+margin_right = 497.252
+margin_bottom = -6.97178
+text = "AAAAHHHH!!!"
+
+[node name="cutscene7" type="Sprite" parent="."]
+visible = false
+position = Vector2( 516, 301 )
+scale = Vector2( 1.00313, 1.00332 )
+texture = ExtResource( 13 )
+
+[node name="fibrinha5" type="Label" parent="cutscene7"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -392.773
+margin_top = -112.626
+margin_right = -362.773
+margin_bottom = -98.626
+text = "Urgh…"
+
+[node name="cutscene8" type="Sprite" parent="."]
+visible = false
+position = Vector2( 516, 300 )
+scale = Vector2( 1.00117, 1.00332 )
+texture = ExtResource( 11 )
+
+[node name="fibrinha5" type="Label" parent="cutscene8"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -392.773
+margin_top = -112.626
+margin_right = -362.773
+margin_bottom = -98.626
+text = "Urgh…"
+
+[node name="cobrinho4" type="Label" parent="cutscene8"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 237.721
+margin_top = 55.8147
+margin_right = 300.721
+margin_bottom = 69.8147
+text = " OTÁRIO!!"
+
+[node name="continue" type="Button" parent="."]
+show_behind_parent = true
+margin_left = 870.0
+margin_top = 515.0
+margin_right = 1010.0
+margin_bottom = 584.0
+
+[node name="back" type="Button" parent="."]
+show_behind_parent = true
+margin_left = 15.0
+margin_top = 528.0
+margin_right = 143.0
+margin_bottom = 588.0
+
+[node name="seta_direita" type="Sprite" parent="."]
+position = Vector2( 949, 553 )
+scale = Vector2( 3.17773, 2.94531 )
+texture = ExtResource( 7 )
+
+[node name="seta_esquerda" type="Sprite" parent="."]
+position = Vector2( 75, 567 )
+scale = Vector2( 2.98438, 3.10156 )
+texture = ExtResource( 6 )
+
+[node name="hud" type="CanvasLayer" parent="."]
+
+[node name="gamepad" type="Node2D" parent="hud"]
+
+[node name="Butao_Start" type="TouchScreenButton" parent="."]
+position = Vector2( 184, 205 )
+scale = Vector2( 4.66667, 4.38889 )
+normal = ExtResource( 15 )
+pressed = ExtResource( 17 )
+
+[node name="butao_opcoes" type="TouchScreenButton" parent="."]
+position = Vector2( 185, 301 )
+scale = Vector2( 4.65152, 4.55555 )
+normal = ExtResource( 16 )
+pressed = ExtResource( 18 )
+
+[connection signal="pressed" from="continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Butao_Start" to="." method="_on_Butao_Start_pressed"]
+[connection signal="pressed" from="butao_opcoes" to="." method="_on_butao_opoes_pressed"]

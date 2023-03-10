@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gentle-rainfall-16960.wav-43eb9cbc1ee017f8c20ea55e09332554.sample"
+
+[deps]
+
+source_file="res://Musicas/gentle-rainfall-16960.wav"
+dest_files=[ "res://.import/gentle-rainfall-16960.wav-43eb9cbc1ee017f8c20ea55e09332554.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
