@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Kevin MacLeod - Itty Bitty 8 Bit ♫ NO COPYRIGHT 8-bit Music (256 kbps).wav-45e0afef7597d794a52ec0d11c6d80c5.sample"
+
+[deps]
+
+source_file="res://Musicas/Kevin MacLeod - Itty Bitty 8 Bit ♫ NO COPYRIGHT 8-bit Music (256 kbps).wav"
+dest_files=[ "res://.import/Kevin MacLeod - Itty Bitty 8 Bit ♫ NO COPYRIGHT 8-bit Music (256 kbps).wav-45e0afef7597d794a52ec0d11c6d80c5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
