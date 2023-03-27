@@ -8,7 +8,7 @@
 
 ## V.tech
 
-## Integrantes: Bruno, Daniel, Luiza, Mario, Matheus e Victor
+## Integrantes: Bruno, Daniel, Luiza, Mário, Matheus e Victor
 
 ## Descrição
 
