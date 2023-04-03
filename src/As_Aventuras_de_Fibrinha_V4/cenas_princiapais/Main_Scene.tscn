@@ -1,0 +1,173 @@
+[gd_scene load_steps=33 format=2]
+
+[ext_resource path="res://Cena_fontes/cutscene8.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Cena_fontes/cutscene6.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/pixil-layer-Background (11).png" type="Texture" id=3]
+[ext_resource path="res://assets/pixil-layer-Background (12).png" type="Texture" id=4]
+[ext_resource path="res://assets/pixil-layer-Background (24) (1).png" type="Texture" id=5]
+[ext_resource path="res://assets/pixil-layer-Background (21).png" type="Texture" id=6]
+[ext_resource path="res://assets/pixil-layer-Background (30).png" type="Texture" id=7]
+[ext_resource path="res://assets/pixil-layer-Background (25).png" type="Texture" id=8]
+[ext_resource path="res://assets/pixil-layer-Background (22).png" type="Texture" id=9]
+[ext_resource path="res://assets/pixil-layer-Background (28).png" type="Texture" id=10]
+[ext_resource path="res://assets/pixil-layer-Background (46).png" type="Texture" id=11]
+[ext_resource path="res://assets/pixil-layer-Background (44).png" type="Texture" id=12]
+[ext_resource path="res://assets/pixil-layer-Background (48).png" type="Texture" id=13]
+[ext_resource path="res://assets/pixil-layer-Background (47).png" type="Texture" id=14]
+[ext_resource path="res://Cena_fontes/cutscene7.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Cena_fontes/cutscene5.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Cena_fontes/cutscene4.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Cena_fontes/cutscene2.tscn" type="PackedScene" id=18]
+[ext_resource path="res://Cena_fontes/cutscene1.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Cena_fontes/cutscene3.tscn" type="PackedScene" id=20]
+[ext_resource path="res://cenas_princiapais/weather.tscn" type="PackedScene" id=21]
+[ext_resource path="res://assets/pixil-layer-Background (39) (1).png" type="Texture" id=22]
+[ext_resource path="res://assets/pixil-layer-Background (38).png" type="Texture" id=23]
+[ext_resource path="res://Musicas/Kevin MacLeod - Itty Bitty 8 Bit ♫ NO COPYRIGHT 8-bit Music (256 kbps)-[AudioTrimmer.com].wav" type="AudioStream" id=24]
+[ext_resource path="res://src/script_botoes.gd" type="Script" id=25]
+[ext_resource path="res://assets/WhatsApp Image 2023-02-23 at 09.25.28.jpeg" type="Texture" id=26]
+[ext_resource path="res://assets/pixil-layer-Background (36).png" type="Texture" id=27]
+[ext_resource path="res://Musicas/gentle-rainfall-16960.wav" type="AudioStream" id=28]
+[ext_resource path="res://assets/pixil-layer-Background (37).png" type="Texture" id=29]
+[ext_resource path="res://fontes/DeterminationMonoWebRegular-Z5oq.ttf" type="DynamicFontData" id=30]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 30 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 30 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 25 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 512.5, 300.5 )
+scale = Vector2( 0.799219, 0.926563 )
+texture = ExtResource( 26 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Weather" parent="." instance=ExtResource( 21 )]
+wind = 0.3
+size = 0.6
+rain_darkness = 0.07
+lightChangeTime = 1.0
+
+[node name="Audio_chuva" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 28 )
+autoplay = true
+
+[node name="audio_cutscene" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 24 )
+
+[node name="cutscene1" parent="." instance=ExtResource( 19 )]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="cobrinho2" type="RichTextLabel" parent="cutscene1"]
+margin_left = -118.0
+margin_top = -440.0
+margin_right = 72.0
+margin_bottom = -364.0
+custom_fonts/normal_font = SubResource( 1 )
+
+[node name="shokinho1" type="RichTextLabel" parent="cutscene1"]
+margin_left = -297.597
+margin_top = -435.0
+margin_right = -101.597
+margin_bottom = -360.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 2 )
+text = "ousadhnfaljdsnfljadsnbfldsaldsaf"
+
+[node name="cutscene2" parent="." instance=ExtResource( 18 )]
+visible = false
+
+[node name="cutscene3" parent="." instance=ExtResource( 20 )]
+visible = false
+
+[node name="cutscene4" parent="." instance=ExtResource( 17 )]
+visible = false
+
+[node name="cutscene5" parent="." instance=ExtResource( 16 )]
+visible = false
+
+[node name="cutscene6" parent="." instance=ExtResource( 2 )]
+visible = false
+
+[node name="cutscene7" parent="." instance=ExtResource( 15 )]
+visible = false
+
+[node name="cutscene8" parent="." instance=ExtResource( 1 )]
+visible = false
+
+[node name="continue" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 906, 532 )
+scale = Vector2( 1.3, 1.3 )
+normal = ExtResource( 27 )
+pressed = ExtResource( 29 )
+
+[node name="back" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 15, 532 )
+scale = Vector2( 1.3, 1.3 )
+normal = ExtResource( 23 )
+pressed = ExtResource( 22 )
+
+[node name="Butao_Start" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 176, 208 )
+scale = Vector2( 1.6, 1.4 )
+normal = ExtResource( 14 )
+pressed = ExtResource( 13 )
+
+[node name="butao_opcoes" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 176, 305 )
+scale = Vector2( 1.6, 1.4 )
+normal = ExtResource( 11 )
+pressed = ExtResource( 12 )
+
+[node name="butao_continuar" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 186, 211 )
+scale = Vector2( 1.33, 1.33 )
+normal = ExtResource( 3 )
+pressed = ExtResource( 4 )
+
+[node name="butao_volume" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 181, 398 )
+scale = Vector2( 1.33, 1.33 )
+normal = ExtResource( 5 )
+pressed = ExtResource( 8 )
+
+[node name="butao_codigo_etica" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 187, 301 )
+scale = Vector2( 1.33766, 1.44444 )
+normal = ExtResource( 9 )
+pressed = ExtResource( 6 )
+
+[node name="volume_on" type="Sprite" parent="."]
+visible = false
+position = Vector2( 463, 438 )
+scale = Vector2( 1.24405, 1.44444 )
+texture = ExtResource( 7 )
+
+[node name="volume_off" type="Sprite" parent="."]
+visible = false
+position = Vector2( 463, 438 )
+scale = Vector2( 1.24405, 1.44444 )
+texture = ExtResource( 10 )
+
+[connection signal="released" from="continue" to="." method="_on_continue_pressed"]
+[connection signal="released" from="back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Butao_Start" to="." method="_on_Butao_Start_released"]
+[connection signal="released" from="butao_opcoes" to="." method="_on_butao_opcoes_released"]
+[connection signal="released" from="butao_continuar" to="." method="_on_butao_continuar_released"]
+[connection signal="released" from="butao_volume" to="." method="_on_butao_volume_released"]
+[connection signal="released" from="butao_codigo_etica" to="." method="_on_butao_codigo_etica_released"]

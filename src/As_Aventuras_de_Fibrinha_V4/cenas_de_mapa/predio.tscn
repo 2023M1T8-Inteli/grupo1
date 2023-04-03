@@ -1,0 +1,6 @@
+[gd_scene format=2]
+
+[node name="TileMap" type="TileMap"]
+position = Vector2( 8, 0 )
+scale = Vector2( 3, 3 )
+format = 1
