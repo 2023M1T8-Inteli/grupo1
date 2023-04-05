@@ -8,17 +8,17 @@
 
 ## V.tech
 
-## Integrantes: Bruno, Daniel, Luiza, Mário, Matheus e Victor
+## Integrantes: Bruno, Daniel, Luiza, Mário e Matheus
 
 ## Descrição
 
-📜 Este é o resultado da terceira sprint de desenvolvimento de game para a V.tal.
+📜 Este é o resultado final da quarta sprint de desenvolvimento de game para a V.tal.
 <br><br>
 As Aventuras de Fibrinha visa a propagação da cultura organizacional, por meio da gamificação no processo de formação dos funcionários da V.tal, alinhando-os ao código de ética e conduta da empresa.
 <br><br>
 <p align="center">
 <img src="https://i.postimg.cc/GtKDbZc8/ft-jg.png" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Game by <a href="https://www.canva.com/design/DAFeBi0jvzM/PrvSqwL5stkqDTspEo3ysA/edit?utm_content=DAFeBi0jvzM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">V.tech - soluções digitais</a>, <a href="https://i.postimg.cc/GtKDbZc8/ft-jg.png">PostImage</a>
 </p>
 
 
@@ -92,7 +92,9 @@ A cada atualização os detalhes devem ser lançados aqui.
     MUDANÇA: atualização de docs (inclusão do GDD), readme e scr (inclusão do código)
 * 0.2.0 - 10/03/2023
     MUDANÇA: atualização de docs (inclusão do GDD atualizado), readme e scr (inclusão do código, nova versão do jogo)
-* 0.3.0 - 10/03/2023
+* 0.3.0 - 24/03/2023
+    MUDANÇA: atualização de docs (inclusão do GDD atualizado), readme e scr (inclusão do código, nova versão do jogo)
+* 0.4.0 - 06/04/2023
     MUDANÇA: atualização de docs (inclusão do GDD atualizado), readme e scr (inclusão do código, nova versão do jogo)
 
 ## 📋 Licença/License
