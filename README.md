@@ -98,5 +98,4 @@ Aqui estão as referências usadas no projeto.
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
 4. <https://freesound.org/>
-6. <https://aiva.ai/>
-5. Músicas por: <a href="https://aiva.ai/"> DaveJf </a> e <a href="youtube.com"> Youtube License Free Music </a> ambas com Licença CC 0.
+5. Músicas por: <a href="https://aiva.ai/"> AIVA </a> e <a href="youtube.com"> Youtube License Free Music </a> ambas com Licença CC 0.
