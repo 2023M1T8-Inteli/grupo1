@@ -83,7 +83,9 @@ A cada atualização os detalhes devem ser lançados aqui.
     MUDANÇA: atualização de docs (inclusão do GDD atualizado), readme e scr (inclusão do código, nova versão do jogo)
 * 0.3.0 - 24/03/2023
     MUDANÇA: atualização de docs (inclusão do GDD atualizado), readme e scr (inclusão do código, nova versão do jogo)
-* 0.4.0 - 06/04/2023
+* 0.4.0 - 03/04/2023
+    MUDANÇA: readme e scr (inclusão do código, nova versão do jogo)
+* 0.5.0 - 05/04/2023
     MUDANÇA: atualização de docs (inclusão do GDD atualizado), readme e scr (inclusão do código, nova versão do jogo)
 
 ## 📋 Licença/License
