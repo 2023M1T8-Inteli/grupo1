@@ -42,7 +42,7 @@ Nosso jogo melhora o processo de formação dos funcionários da V.tal, propagan
 |-->src<br>
 |readme.md<br>
 
-Conteúdo das pastas do projeto:
+## 💾 Conteúdo das pastas do projeto:
 
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre o projeto: "As aventuras de fibrinha".
 
