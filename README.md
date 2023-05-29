@@ -96,8 +96,6 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://aiva.ai/"> AIVA </a> e <a href="youtube.com"> Youtube License Free Music </a> ambas com Licença CC 0.
+1. <https://creativecommons.org/share-your-work/>
+2. <https://freesound.org/>
+3. Músicas por: <a href="https://aiva.ai/"> AIVA </a> e <a href="youtube.com"> Youtube License Free Music </a> ambas com Licença CC 0.
