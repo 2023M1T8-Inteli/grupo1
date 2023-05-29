@@ -22,12 +22,6 @@ matheus.ribeiro@sou.inteli.edu.br
 📜 Este é o resultado final da quarta sprint de desenvolvimento de game para a V.tal.
 <br><br>
 As Aventuras de Fibrinha visa a propagação da cultura organizacional, por meio da gamificação no processo de formação dos funcionários da V.tal, alinhando-os ao código de ética e conduta da empresa.
-<br><br>
-<p align="center">
-<img src="https://i.postimg.cc/GtKDbZc8/ft-jg.png" alt="NOME DO JOGO" border="0">
-  Game by <a href="https://www.canva.com/design/DAFeBi0jvzM/PrvSqwL5stkqDTspEo3ysA/edit?utm_content=DAFeBi0jvzM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">V.tech - soluções digitais</a>, <a href="https://i.postimg.cc/GtKDbZc8/ft-jg.png">PostImage</a>
-</p>
-
 
 💡<br><br>
 Nosso jogo melhora o processo de formação dos funcionários da V.tal, propagando o conhecimento sobre o código de ética e conduta, mais especificamente referente aos temas de uso de recursos e conflito de interesses.
