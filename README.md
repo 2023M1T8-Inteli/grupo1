@@ -61,8 +61,7 @@ Nosso jogo melhora o processo de formação dos funcionários da V.tal, propagan
 <b>HTML:</b>
 
 Não há instalação!
-<a href="https://2023m1t8-inteli.github.io/grupo1/entrega_artefato_11/"> Link para o jogo </a>
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+<a href="https://2023m1t8-inteli.github.io/grupo1/entrega_artefato_11/"> Link para o jogo aqui. </a>
 
 ## 💻 Configuração para Desenvolvimento
 
