@@ -10,6 +10,13 @@
 
 ## Integrantes: Bruno, Daniel, Luiza, Mário e Matheus
 
+## Email de contato:
+bruno.conti@sou.inteli.edu.br
+daniel.mendez@sou.inteli.edu.br
+luiza.santana@sou.inteli.edu.br
+mario.medeiros@sou.inteli.edu.br
+matheus.ribeiro@sou.inteli.edu.br
+
 ## Descrição
 
 📜 Este é o resultado final da quarta sprint de desenvolvimento de game para a V.tal.
