@@ -1,30 +1,26 @@
 # Inteli - Instituto de Tecnologia e Liderança 
 
 <p align="center">
-<a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
+<a href= "https://www.inteli.edu.br/"><img src="https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
 # As Aventuras de Fibrinha
 
 ## V.tech
 
-## Integrantes: Bruno, Daniel, Luiza, Mário e Matheus
+## Integrantes: 
 
-## Email de contato:
-bruno.conti@sou.inteli.edu.br<br>
-daniel.mendez@sou.inteli.edu.br<br>
-luiza.santana@sou.inteli.edu.br<br>
-mario.medeiros@sou.inteli.edu.br<br>
-matheus.ribeiro@sou.inteli.edu.br
+- <a href= "mailto:bruno.conti@sou.inteli.edu.br">Bruno Conti</a>
+- <a href= "mailto:daniel.mendez@sou.inteli.edu.br">Daniel Mendez</a>
+- <a href= "mailto:luiza.santana@sou.inteli.edu.br">Luiza Santana</a>
+- <a href= "mailto:mario.medeiros@sou.inteli.edu.br">Mário Medeiros</a>
+- <a href= "mailto:matheus.ribeiro@sou.inteli.edu.br">Matheus Ribeiro</a>
 
 ## Descrição
 
 📜 Este é o resultado final da quarta sprint de desenvolvimento de game para a V.tal.
 <br><br>
-As Aventuras de Fibrinha visa a propagação da cultura organizacional, por meio da gamificação no processo de formação dos funcionários da V.tal, alinhando-os ao código de ética e conduta da empresa.
-
-💡<br><br>
-Nosso jogo melhora o processo de formação dos funcionários da V.tal, propagando o conhecimento sobre o código de ética e conduta, mais especificamente referente aos temas de uso de recursos e conflito de interesses.
+As Aventuras de Fibrinha visa a propagação da cultura organizacional, por meio da gamificação no processo de formação dos funcionários da V.tal, alinhando-os ao código de ética e conduta da empresa. O jogo melhora o processo de formação dos funcionários da V.tal, propagando o conhecimento sobre o código de ética e conduta, mais especificamente referente aos temas de uso de recursos e conflito de interesses.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -91,7 +87,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 ## 📋 Licença/License
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">INTELI, VICTOR BRUNO ALEXANDER ROSETTI DE QUIROZ</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">V.tech</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.inteli.edu.br/">INTELI, Bruno Conti, Daniel Mendez, Luiza Santana, Mário Medeiros e Matheus Ribeiro</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 ## 🎓 Referências
 
